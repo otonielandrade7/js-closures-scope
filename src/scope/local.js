@@ -2,8 +2,8 @@ const helloWorld = () => {
     const hello = 'Hello world';
     console.log(hello);
 }
-helloWorld();
-console.log(hello);
+helloWorld();//Hello world
+console.log(hello);//hello is not defined
 
 
 var scope = 'i am global';
